@@ -21,7 +21,7 @@ namespace _250620
             this.Group = groupName;
         }
 
-        public bool SetExamResult(int result)
+        public void SetExamResult(int result)
         {
             if (result < 0 || result > 100) throw new ArgumentOutOfRangeException("result");
 
